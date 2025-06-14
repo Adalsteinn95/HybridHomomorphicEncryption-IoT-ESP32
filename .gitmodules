@@ -1,0 +1,12 @@
+[submodule "fhe-server/src/thirdparty/HElib"]
+	path = fhe-server/src/thirdparty/HElib
+	url = https://github.com/homenc/HElib.git
+[submodule "fhe-server/src/thirdparty/SEAL"]
+	path = fhe-server/src/thirdparty/SEAL
+	url = https://github.com/microsoft/SEAL.git
+[submodule "fhe-server/src/thirdparty/tfhe"]
+	path = fhe-server/src/thirdparty/tfhe
+	url = https://github.com/tfhe/tfhe.git
+[submodule "fhe-server/src/thirdparty/m4ri"]
+	path = fhe-server/src/thirdparty/m4ri
+	url = https://github.com/malb/m4ri.git

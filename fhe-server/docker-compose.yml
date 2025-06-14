@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  mosquitto:
+    image: eclipse-mosquitto
+    ports:
+      - "1883:1883"
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+
+  fhe-server:
+    build: .
+    container_name: fhe-mqtt-container
+    volumes:
+      - .:/app
+    environment:
+      MQTT_HOST: mosquitto
+    depends_on:
+      - mosquitto
+    stdin_open: true
+    tty: true

@@ -1,0 +1,62 @@
+# Compiled source files
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.exe
+*.out
+*.a
+*.so
+*.dylib
+
+# ESP32 build output
+build/
+sdkconfig.old
+sdkconfig
+*.map
+*.pyc
+*.pyo
+*.pyd
+
+# Arduino/PlatformIO
+.pio/
+.vscode/
+*.ino.*
+*.cpp.*
+*.d
+
+# Python virtual environments
+venv/
+.env/
+__pycache__/
+
+# Logs and databases
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*.bak
+*.tmp
+.idea/
+*.code-workspace
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Certificates/keys (if any)
+*.pem
+*.key
+*.crt
+
+# Misc
+*.orig
+*.rej
